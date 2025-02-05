@@ -33,6 +33,3 @@ const Arr :number[]=[1,2,3]
 const newArr= Arr.map((elem:number):number=>{
     return elem*elem
 })
-
-
-
