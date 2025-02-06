@@ -34,9 +34,23 @@ const student3:Student={
 
 
 {
-    type username= string
+    type Username= string
 
-const name:username ='ali'
-const firstName:username= 'Tushar'
+const name:Username ='ali'
+const firstName:Username= 'Tushar'
+
+}
+
+
+
+
+
+{
+
+type Add= (num1:number, num2:number)=>number
+
+ const add: Add=(num1, num2)=>{
+    return num1+num2
+ }
 
 }
