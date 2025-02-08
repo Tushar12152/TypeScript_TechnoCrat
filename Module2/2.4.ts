@@ -1,6 +1,6 @@
 {
     //
-            interface Developer<T,X>{
+            interface Developer<T,X=null>{
                 name:string;
                 computer:{
                     name:string,
@@ -18,7 +18,7 @@
             }
 
 
-    const poorDeveloper: Developer<casioWatch,null>={
+    const poorDeveloper: Developer<casioWatch>={
         name:'Abul',
         computer:{
             name: 'PC',
